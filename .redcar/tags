@@ -1,0 +1,24 @@
+1344687616
+About page	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	describe "About page" do
+Application	/Users/tomaskrehlik/Ruby/my_small_app/config/application.rb	  class Application 
+ApplicationController	/Users/tomaskrehlik/Ruby/my_small_app/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/Users/tomaskrehlik/Ruby/my_small_app/app/helpers/application_helper.rb	module ApplicationHelper
+Contact page	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
+Help page	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	describe "Help page" do
+Home page	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	describe "Home page" do
+MySmallApp	/Users/tomaskrehlik/Ruby/my_small_app/config/application.rb	module MySmallApp
+Static pages	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
+StaticPagesController	/Users/tomaskrehlik/Ruby/my_small_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
+StaticPagesHelper	/Users/tomaskrehlik/Ruby/my_small_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+about	/Users/tomaskrehlik/Ruby/my_small_app/app/controllers/static_pages_controller.rb	  def about
+contact	/Users/tomaskrehlik/Ruby/my_small_app/app/controllers/static_pages_controller.rb	  def contact
+help	/Users/tomaskrehlik/Ruby/my_small_app/app/controllers/static_pages_controller.rb	  def help
+home	/Users/tomaskrehlik/Ruby/my_small_app/app/controllers/static_pages_controller.rb	  def home
+should have the content 'About Us'	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	it "should have the content 'About Us'" do
+should have the content 'Contact'	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	it "should have the content 'Contact'" do
+should have the content 'Help'	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	it "should have the content 'Help'" do
+should have the content 'Sample App'	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	it "should have the content 'Sample App'" do
+should have title '...|About'	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	it "should have title '...|About'" do
+should have title '...|Contact'	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	it "should have title '...|Contact'" do
+should have title '...|Help'	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	it "should have title '...|Help'" do
+should have title '...|Home'	/Users/tomaskrehlik/Ruby/my_small_app/spec/requests/static_pages_spec.rb	it "should have title '...|Home'" do
